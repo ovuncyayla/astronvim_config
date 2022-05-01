@@ -14,3 +14,7 @@ Install my config, use:
 ```bash
   git clone https://github.com/datamonsterr/astrovim_config ~/.config/astronvim/lua/user
 ```
+
+# Another method
+
+I have moved to the `without user/init.lua` configuration method, so checkout my `another_method` branch for newest update
