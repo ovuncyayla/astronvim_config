@@ -6,7 +6,7 @@ return {
     timeoutlen = 100,
     updatetime = 100,
     numberwidth = 1,
-    spellfile = "/home/dat/.config/astronvim/lua/user/spell/en.utf-8.add",
+    spellfile = "/home/zuzzurellone/.config/astronvim/lua/user/spell/en.utf-8.add",
     list = true,
     listchars = {
       tab = "→ ",
