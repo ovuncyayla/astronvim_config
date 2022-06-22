@@ -61,7 +61,7 @@ if vim.g.colors_name == "dracula" then
           { provider = provider.spacer(1), enabled = conditional.git_available },
           {
             provider = function()
-              local filename = vim.fn.expand("%:p"):gsub("/home/datamonsteramonsterr", "~")
+              local filename = vim.fn.expand("%:p"):gsub("/home/zuzzurellone", "~")
               local shorten_filename = vim.fn.pathshorten(filename, 2)
               local icon = require("nvim-web-devicons").get_icon(filename, vim.o.filetype, { default = true })
               return string.format(" %s %s ", icon, shorten_filename)
@@ -161,7 +161,7 @@ elseif vim.g.colors_name == "catppuccin" then
   local catppuccin = require("catppuccin.api.colors").get_colors() -- fetch colors with API
   components.active[1][11]["provider"] = "line_percentage"
   components.active[1][10]["provider"] = function()
-    return " " .. "CWD: " .. vim.fn.getcwd():gsub("/home/datamonster", "~") .. " "
+    return " " .. "CWD: " .. vim.fn.getcwd():gsub("/home/zuzzurellone", "~") .. " "
   end
   components.active[1][10]["hl"] = { fg = catppuccin.text, bg = catppuccin.surface0 }
 

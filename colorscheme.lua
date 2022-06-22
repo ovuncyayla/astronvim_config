@@ -1,1 +1,1 @@
-return "catppuccin"
+return "aquarium"
