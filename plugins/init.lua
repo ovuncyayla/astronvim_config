@@ -190,4 +190,5 @@ return {
       }
     end,
   },
+  ['frenzyexists/aquarium-vim'] = {},
 }
