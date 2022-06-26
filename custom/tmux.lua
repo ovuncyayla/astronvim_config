@@ -10,7 +10,7 @@ if vim.fn.exists "$TMUX" == 1 then
         enable_default_keybindings = true,
       },
       resize = {
-        enable_default_keybindings = true,
+        enable_default_keybindings = false,
       },
     }
   end
